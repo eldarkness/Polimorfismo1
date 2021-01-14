@@ -23,7 +23,7 @@ namespace Polimorfismo1
         
         public new void MostrarDetalles()
         {
-            Console.WriteLine("Datos adicionales de la minivan:\nPlazas: {0}\nAltura: {1}\nLongitud: {2}"
+            Console.WriteLine("Datos adicionales de la ConvertibleCoche:\nPlazas: {0}\nAltura: {1}\nLongitud: {2}"
                                                                 , this.Plazas, this.Altura, this.Longitud);
             Program.Asteriscos();
         }
